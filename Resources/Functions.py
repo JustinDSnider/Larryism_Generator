@@ -4,7 +4,7 @@ def getDay():
     return dt.now().strftime('%A')
 
 def readFile(fileName):
-    f = open(f"Resources\\{fileName}.txt", "r")
+    f = open(f"Resources/{fileName}.txt", "r")
     List = f.readlines()
     f.close()
     List2 = []
